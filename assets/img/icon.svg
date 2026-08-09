@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="True North Engineering">
+  <rect width="128" height="128" rx="16" fill="#0a1e33"/>
+  <circle cx="64" cy="64" r="46" fill="none" stroke="#ffffff" stroke-width="6" opacity=".48"/>
+  <path d="M64 14l18 54H46L64 14z" fill="#d9622b"/>
+  <path d="M64 114L46 60h36L64 114z" fill="#ffffff" opacity=".88"/>
+</svg>

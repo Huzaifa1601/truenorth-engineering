@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="True North Engineering MEP Contractors">
+  <rect width="1200" height="630" fill="#0a1e33"/>
+  <path d="M0 500h1200v130H0z" fill="#0f2a4a"/>
+  <path d="M130 130h260v360H130zM430 220h190v270H430zM660 170h410v320H660z" fill="#1c4066"/>
+  <path d="M130 130h260M430 220h190M660 170h410" stroke="#d9622b" stroke-width="10"/>
+  <circle cx="952" cy="166" r="74" fill="none" stroke="#ffffff" stroke-width="8" opacity=".35"/>
+  <path d="M952 66l30 92h-60l30-92z" fill="#d9622b"/>
+  <text x="90" y="110" fill="#ffffff" font-family="Arial, sans-serif" font-size="54" font-weight="700">TRUE NORTH ENGINEERING</text>
+  <text x="90" y="575" fill="#e8edf3" font-family="Arial, sans-serif" font-size="34">MEP SOLUTIONS - KARACHI</text>
+</svg>

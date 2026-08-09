@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1220">
+  <link rel="icon" href="/assets/images/favicon.ico">
+  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+  <title>Operations Dashboard | True North Engineering</title>
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/brand.css">
+  <link rel="stylesheet" href="assets/css/admin.css">
+</head>
+<body class="admin-page">
+  <div class="admin-app">
+    <aside class="admin-sidebar" aria-label="Dashboard navigation">
+      <a class="admin-brand" href="/"><img src="assets/images/logo-white.svg" width="170" height="170" alt="True North Engineering"><span>OPERATIONS<small>QUOTE DASHBOARD</small></span></a>
+      <nav class="admin-nav">
+        <button class="nav-item is-active" type="button" data-view="overview">Overview</button>
+        <button class="nav-item" type="button" data-view="quotes">Quote CRM</button>
+        <button class="nav-item" type="button" data-view="activity">Activity</button>
+      </nav>
+      <div class="sidebar-foot"><a href="/">View website</a><button type="button" data-signout>Sign out</button></div>
+    </aside>
+    <main class="admin-main">
+      <section class="login-screen" data-login-panel>
+        <div class="login-panel"><span class="status-dot"></span><p class="admin-kicker">Private operations area</p><h1>Welcome back.</h1><p>Sign in to manage incoming opportunities and performance.</p>
+          <form data-login-form><label>Email<input name="email" type="email" autocomplete="username" required></label><label>Password<input name="password" type="password" autocomplete="current-password" required></label><p class="admin-status" role="status" aria-live="polite"></p><button class="primary-button" type="submit">Sign in <span aria-hidden="true">-&gt;</span></button></form>
+        </div>
+      </section>
+      <section class="dashboard" data-dashboard hidden>
+        <header class="dashboard-header"><div><p class="admin-kicker">Operations overview</p><h1>Good morning, team.</h1><p class="muted">Your sales pulse, quote pipeline and recent activity in one place.</p></div><div class="header-actions"><button class="icon-button" type="button" data-theme-toggle aria-label="Toggle dark mode" title="Toggle dark mode">◐</button><button class="refresh-button" type="button" data-refresh><span data-refresh-icon>↻</span> Refresh</button></div></header>
+        <div class="dashboard-status" data-dashboard-status role="status" aria-live="polite"></div>
+        <div class="view-panel is-active" data-view-panel="overview">
+          <div class="metric-grid"><article class="metric-card"><span>Today's quotes</span><strong data-metric="today">0</strong><small>Since midnight</small></article><article class="metric-card"><span>This week</span><strong data-metric="week">0</strong><small>Last 7 days</small></article><article class="metric-card"><span>This month</span><strong data-metric="month">0</strong><small>Current month</small></article><article class="metric-card accent"><span>Total quotes</span><strong data-metric="total">0</strong><small>All time pipeline</small></article><article class="metric-card"><span>Visitors</span><strong data-metric="visitors">0</strong><small>Tracked sessions</small></article><article class="metric-card"><span>Average area</span><strong data-metric="average">0</strong><small>Square feet</small></article></div>
+          <div class="analytics-grid"><article class="chart-panel"><div class="panel-heading"><div><p class="admin-kicker">Demand signal</p><h2>Quote activity</h2></div><span class="range-label">Last 14 days</span></div><div class="bar-chart" data-activity-chart aria-label="Quote activity chart"></div></article><article class="chart-panel"><div class="panel-heading"><div><p class="admin-kicker">Conversion</p><h2>Pipeline health</h2></div><strong class="conversion-value" data-conversion>0%</strong></div><div class="donut-chart" data-donut><span>Won</span></div><div class="legend"><span><i class="dot dot-won"></i>Won <b data-status-count="won">0</b></span><span><i class="dot dot-open"></i>Open <b data-status-count="new">0</b></span><span><i class="dot dot-lost"></i>Lost <b data-status-count="lost">0</b></span></div></article></div>
+          <div class="lower-grid"><article class="table-panel"><div class="panel-heading"><div><p class="admin-kicker">Demand mix</p><h2>Top project types</h2></div></div><div class="type-list" data-type-list></div></article><article class="table-panel"><div class="panel-heading"><div><p class="admin-kicker">Latest</p><h2>Activity</h2></div><button class="text-button" type="button" data-go-quotes>View all</button></div><div class="activity-list" data-activity-list></div></article></div>
+        </div>
+        <div class="view-panel" data-view-panel="quotes"><div class="section-toolbar"><div><p class="admin-kicker">Sales pipeline</p><h2>Quote CRM</h2><p class="muted">Every enquiry, organized for a fast follow-up.</p></div><div class="toolbar-actions"><button class="secondary-button" type="button" data-export>↓ Export CSV</button><button class="primary-button compact" type="button" data-refresh>↻ Refresh</button></div></div><div class="filters"><label class="search-field"><span aria-hidden="true">⌕</span><input type="search" data-search placeholder="Search name, email or project" autocomplete="off"></label><select data-filter-type aria-label="Filter by project type\"><option value="">All project types</option></select><select data-sort aria-label="Sort quotes"><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></div><div class="crm-list" data-quote-list></div></div>
+        <div class="view-panel" data-view-panel="activity"><div class="section-toolbar"><div><p class="admin-kicker">Audit trail</p><h2>Latest activity</h2><p class="muted">A running view of quote and visitor events.</p></div></div><div class="activity-feed" data-full-activity></div></div>
+      </section>
+    </main>
+  </div>
+  <div class="toast-stack" data-toast-stack aria-live="polite"></div>
+  <dialog class="confirm-dialog" data-delete-dialog><div class="dialog-icon">!</div><h2>Delete this request?</h2><p>This permanently removes the quote from your pipeline. This action cannot be undone.</p><div class="dialog-actions"><button class="secondary-button" type="button" data-cancel-delete>Cancel</button><button class="danger-button" type="button" data-confirm-delete>Delete request</button></div></dialog>
+  <script type="module" src="assets/js/admin.js"></script>
+</body>
+</html>
