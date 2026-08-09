@@ -21,7 +21,7 @@ export function initSlider() {
   let index = 0;
   let timer = null;
 
-  const SLIDE_INTERVAL = 3000;
+  const SLIDE_INTERVAL = 5000;
 
   const show = (nextIndex) => {
     index = (nextIndex + slides.length) % slides.length;
