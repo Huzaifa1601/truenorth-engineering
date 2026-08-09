@@ -129,7 +129,7 @@ doc.add_paragraph("Publishing the domain itself requires access to the domain re
 
 heading("7. Content and operations handoff")
 bullets([
-    "Replace placeholder phone number, email, office address, WhatsApp number and social links before launch.",
+    "Confirm the public phone number (+92 334 8767060), email, office address, WhatsApp number and social links before launch.",
     "Replace demonstration project photography and testimonials with approved client-owned material over time.",
     "Update the contact and LocalBusiness schema whenever the public contact details change.",
     "Run a database backup before site, server or database upgrades."

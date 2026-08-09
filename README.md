@@ -30,7 +30,7 @@ Upload the project root to Cloudflare Pages, Netlify, GitHub Pages or another st
 
 Before launch:
 
-- Replace placeholder phone, email, WhatsApp and address data.
+- Confirm the public phone (+92 334 8767060), email, WhatsApp and address data with the client.
 - Replace the Google Search Console token.
 - Run every item in LAUNCH_CHECKLIST.md.
 - Confirm HTTPS and both root/www DNS records.
