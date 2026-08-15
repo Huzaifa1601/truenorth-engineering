@@ -35,3 +35,5 @@ drop policy if exists "Authenticated admins can read quote attachments" on stora
 create policy "Authenticated admins can read quote attachments" on storage.objects for select to authenticated using (bucket_id = 'quote-attachments');
 drop policy if exists "Anyone can upload quote attachments" on storage.objects;
 create policy "Anyone can upload quote attachments" on storage.objects for insert to anon, authenticated with check (bucket_id = 'quote-attachments');
+
+notify pgrst, 'reload schema';
