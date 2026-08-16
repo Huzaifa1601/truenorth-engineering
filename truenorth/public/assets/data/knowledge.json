@@ -1,0 +1,26 @@
+{
+  "company": {
+    "name": "True North Engineering",
+    "description": "A Karachi-based MEP contracting company delivering mechanical, electrical, plumbing, HVAC and firefighting systems.",
+    "location": "Karachi, Sindh, Pakistan",
+    "hours": "Monday to Friday, 8am to 6pm",
+    "email": "info@tnorthengineering.com",
+    "phone": "+92 334 8767060"
+  },
+  "services": [
+    {"name":"HVAC Design and Installation","keywords":["hvac","air conditioning","ac","cooling","vrf","chiller"],"description":"HVAC systems, VRF solutions, chilled water systems, ventilation and equipment installation for commercial, residential and industrial facilities.","recommendation":"For HVAC planning, share the approximate area, building use, location, occupancy and whether the project is new construction or renovation."},
+    {"name":"Mechanical Engineering","keywords":["mechanical","duct","ducting","piping","process","ventilation"],"description":"Mechanical coordination, industrial ducting, ventilation, process piping and equipment installation.","recommendation":"Mechanical projects benefit from a site visit, coordinated drawings, equipment schedules and a target completion date."},
+    {"name":"Electrical Systems","keywords":["electrical","power","lighting","cable","wiring","transformer","earthing"],"description":"Power distribution, internal wiring, cabling, substations, transformers, lighting, earthing and lightning protection.","recommendation":"For an electrical enquiry, share the building type, approximate area, expected load and whether drawings are available."},
+    {"name":"Plumbing and Firefighting","keywords":["plumbing","fire","firefighting","sprinkler","hydrant","drainage","pump"],"description":"Water supply, drainage, sewage, hydrant and sprinkler systems, pump rooms, tanks, testing and commissioning.","recommendation":"For fire or plumbing work, share the building use, floors, approximate area and any authority or consultant requirements."}
+  ],
+  "faqs": [
+    {"keywords":["residential","house","villa","apartment"],"answer":"Yes. True North supports residential, high-rise, commercial, healthcare and industrial projects across Karachi and surrounding areas."},
+    {"keywords":["how long","timeline","quotation","quotation time","quote time"],"answer":"A quotation starts after the team reviews your project type, approximate area, location, drawings if available and desired completion date. The exact turnaround depends on the scope."},
+    {"keywords":["site visit","visit","inspection"],"answer":"Site visits can be arranged when they help verify existing conditions, access, measurements or coordination requirements. Mention your location in the quote request."},
+    {"keywords":["area","serve","cities","location"],"answer":"The team is based in Karachi and can support projects across Pakistan depending on scope, schedule and site requirements."},
+    {"keywords":["stamped","drawings","approved drawings"],"answer":"Drawing and approval requirements depend on the project authority, consultant and licensed scope. Share the project details so the team can confirm what documentation is required."},
+    {"keywords":["redesign","existing","renovation","retrofit"],"answer":"Yes. Existing systems can be reviewed for renovation, redesign or retrofit work. Useful information includes current drawings, equipment details, site photos and the problems you want to solve."},
+    {"keywords":["portfolio","projects","gallery","industrial work"],"answer":"You can browse the project profiles in the Projects section of this page. Tell me whether your project is residential, commercial, healthcare or industrial for a more relevant direction."},
+    {"keywords":["ac size","air conditioner size","tons","tonnage"],"answer":"Do not size an AC system from floor area alone. Capacity depends on insulation, ceiling height, windows, occupancy, climate, equipment loads and ventilation."}
+  ]
+}

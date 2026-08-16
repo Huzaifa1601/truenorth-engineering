@@ -1,0 +1,17 @@
+:root{
+  --navy-950:#0a1e33;
+  --navy-900:#0f2a4a;
+  --navy-700:#1c4066;
+  --navy-100:#e8edf3;
+  --orange-600:#c1440e;
+  --orange-500:#d9622b;
+  --white:#ffffff;
+  --paper:#f6f7f9;
+  --ink-mid:#5b6b7d;
+  --line:#d8dee6;
+  --success:#237a4b;
+  --focus:#ffd166;
+  --font-display:'Oswald',sans-serif;
+  --font-body:'Work Sans',sans-serif;
+  --font-mono:'IBM Plex Mono',monospace;
+}
