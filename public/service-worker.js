@@ -1,4 +1,4 @@
-const CACHE_NAME = 'truenorth-supabase-v29';
+const CACHE_NAME = 'truenorth-supabase-v33';
 const ASSETS = [
   '/',
   '/index.html',
@@ -31,7 +31,7 @@ const ASSETS = [
   '/assets/img/whatsapp.svg',
   '/assets/img/hero-industrial.webp',
   '/assets/img/hero-industrial-reference.jpg',
-  '/assets/img/about-profile-placeholder.jpg',
+  '/assets/img/founder-muhammad-kamran-rao.png',
   '/assets/img/project-hvac.webp',
   '/assets/img/project-pump-room.webp',
   '/assets/images/logo-white.svg',
