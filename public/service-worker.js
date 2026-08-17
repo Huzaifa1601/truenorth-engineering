@@ -1,4 +1,4 @@
-const CACHE_NAME = 'truenorth-supabase-v34';
+const CACHE_NAME = 'truenorth-supabase-v36';
 const ASSETS = [
   '/',
   '/index.html',
@@ -37,11 +37,13 @@ const ASSETS = [
   '/assets/img/bot.svg',
   '/assets/img/whatsapp.svg',
   '/assets/img/email.svg',
-  '/assets/img/hero-industrial.webp',
-  '/assets/img/hero-industrial-reference.jpg',
+  '/assets/img/hero-industrial.png',
+  '/assets/img/about-hero-engineer.png',
+  '/assets/img/project-rooftop-hvac.png',
+  '/assets/img/project-plant-room.png',
+  '/assets/img/project-industrial-mep.png',
+  '/assets/img/project-civil-works.png',
   '/assets/img/founder-muhammad-kamran-rao.png',
-  '/assets/img/project-hvac.webp',
-  '/assets/img/project-pump-room.webp',
   '/assets/images/logo-white.svg',
   '/assets/images/logo.svg',
   '/assets/images/logo.png',
@@ -118,3 +120,4 @@ self.addEventListener('fetch', event => {
     })
   );
 });
+
