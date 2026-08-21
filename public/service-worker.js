@@ -1,4 +1,4 @@
-const CACHE_NAME = 'truenorth-supabase-v36';
+const CACHE_NAME = 'truenorth-supabase-v37';
 const ASSETS = [
   '/',
   '/index.html',
@@ -43,7 +43,6 @@ const ASSETS = [
   '/assets/img/project-plant-room.png',
   '/assets/img/project-industrial-mep.png',
   '/assets/img/project-civil-works.png',
-  '/assets/img/founder-muhammad-kamran-rao.png',
   '/assets/images/logo-white.svg',
   '/assets/images/logo.svg',
   '/assets/images/logo.png',
